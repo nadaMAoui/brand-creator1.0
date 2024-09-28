@@ -11,8 +11,8 @@ import Typography from "@mui/material/Typography";
 import PublishedStore from "./pages/PublishedStore/PublishedStore";
 
 const anonKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx2Z2VkZnRoaGpvcWZremhienB1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTc0MDg1NTAsImV4cCI6MjAzMjk4NDU1MH0.yDdlMyuGWHjXq6mYqUO9plYDJ5MdXTCnTXid55ukcB8";
-const projectUrl = "https://lvgedfthhjoqfkzhbzpu.supabase.co";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVrZXBreW9sZHR2bXBrc3pvd2trIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc1NDg3NTksImV4cCI6MjA0MzEyNDc1OX0.9ygPv0qRXjSgXj0MseFgJRaHSuiPcLVPrqRWwm-TvYw";
+const projectUrl = "https://ukepkyoldtvmpkszowkk.supabase.co";
 const supabase = createClient(projectUrl, anonKey);
 
 function App() {
